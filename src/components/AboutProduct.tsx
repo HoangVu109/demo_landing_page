@@ -25,6 +25,7 @@ export default function AboutProduct() {
             src="/imgs/img_3.png"
             alt="Amazfit Bip Max"
             className="w-full h-full object-contain object-right"
+            width="750" height="500"
           />
         </div>
 

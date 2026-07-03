@@ -65,6 +65,7 @@ export default function FeatureCalling() {
                   src="/imgs/img_2.png"
                   alt="Amazfit Bip Max"
                   className="w-56 h-auto object-contain drop-shadow-2xl"
+                  width="400" height="500"
                 />
               </div>
 

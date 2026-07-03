@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="max-w-content mx-auto w-full flex items-center justify-between section-padding">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <img src="/imgs/brand_logo.png" alt="Amazfit" className="h-10 w-auto" />
+          <img src="/imgs/brand_logo.png" alt="Amazfit" className="h-10 w-auto" width="400" height="150" />
         </a>
 
         {/* Desktop Menu */}

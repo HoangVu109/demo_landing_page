@@ -77,6 +77,7 @@ export default function Hero() {
               src="/imgs/img_1.png"
               alt="Amazfit Bip Max"
               className="w-auto h-[500px] object-contain drop-shadow-2xl"
+              width="800" height="800"
             />
           </motion.div>
         </motion.div>

@@ -43,6 +43,7 @@ export default function MainFeatures() {
               src="/imgs/img_5.png"
               alt="Amazfit Bip Max"
               className="w-auto h-[400px] object-contain drop-shadow-2xl"
+              width="1024" height="1024"
             />
           </motion.div>
 
