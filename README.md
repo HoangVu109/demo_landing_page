@@ -2,7 +2,7 @@
 
 Landing page giới thiệu đồng hồ thông minh **Amazfit Bip Max**, xây dựng với React 19 + TypeScript + Vite.
 
-> 📱 **Sản phẩm & Thông tin tham khảo:** [Amazfit Bip Max tại Thế Giới Di Động](https://www.thegioididong.com/dong-ho-thong-minh/amazfit-bip-max-49-5mm-day-silicone)
+>  **Sản phẩm & Thông tin tham khảo:** [Amazfit Bip Max tại Thế Giới Di Động](https://www.thegioididong.com/dong-ho-thong-minh/amazfit-bip-max-49-5mm-day-silicone)
 
 ## Công nghệ
 
@@ -57,18 +57,18 @@ LandingPage/
 
 | # | Section | Mô tả |
 |---|---------|-------|
-| 1 | **Navbar** | Logo + Menu (Trang chủ, Sản phẩm, Tính năng, Thông số, Đánh giá, Liên hệ) + CTA "Mua ngay" |
-| 2 | **Hero** | Headline, mô tả, email subscription, 4 icons (AMOLED, Pin 20 ngày, 5ATM, Bluetooth 5.3), ảnh img_1 |
-| 3 | **About Product** | Giới thiệu + 5 điểm nổi bật, ảnh nền img_3 nhạt dần về trái |
-| 4 | **Thông số Kỹ thuật** | Accordion 6 danh mục: Màn hình, Thiết kế, Tiện ích, Pin, Cấu hình & Kết nối, Thông tin khác |
-| 5 | **Gọi điện** | Bluetooth Calling, chống ồn, loa, mic + sóng âm (ảnh img_2) |
-| 6 | **Tin nhắn** | SMS, Messenger, Zalo, LINE dạng floating bubbles (ảnh img_2) |
-| 7 | **Tính năng chính** | Grid 8 tính năng + ảnh đồng hồ img_5 |
-| 8 | **Đánh giá** | 3 review cards (Thanh Hằng, Minh Tuấn, Thảo Nguyên) |
-| 9 | **Bảng giá** | 2 gói: Tiêu chuẩn (2.590.000₫) & Cao cấp (3.190.000₫) |
-| 10 | **FAQ** | 4 câu hỏi accordion: Pin, Bơi, Tương thích, Bảo hành |
-| 11 | **Newsletter** | Form đăng ký nhận tin (gradient #2CC7D6) |
-| 12 | **Footer** | 5 cột (Sản phẩm, Hỗ trợ, Công ty, Bản tin) + copyright |
+| 1 | **Navbar** | Logo + Menu |
+| 2 | **Hero** | Headline, mô tả, email subscription |
+| 3 | **About Product** | Giới thiệu |
+| 4 | **Thông số Kỹ thuật** | Mô tả thông số kỹ thuật của sản phẩm |
+| 5 | **Gọi điện** | Bluetooth Calling, chống ồn, loa, mic + sóng âm |
+| 6 | **Tin nhắn** | SMS, Messenger, Zalo, LINE dạng floating bubbles |
+| 7 | **Tính năng chính** | Mô tả các chức năng |
+| 8 | **Đánh giá** | review của khách hàng |
+| 9 | **Bảng giá** | Mức giá bán sản phẩm |
+| 10 | **FAQ** | Câu hỏi thường gặp |
+| 11 | **Newsletter** | Form đăng ký nhận tin  |
+| 12 | **Footer** |  |
 | 13 | **Chat AI** | Nút tròn góc phải, khung chat trợ lý ảo |
 
 ## Màu sắc

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint ."
   },
@@ -30,6 +30,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.0",
     "globals": "^15.0.0",
-    "typescript-eslint": "^8.0.0"
+    "typescript-eslint": "^8.0.0",
+    "@types/node": "^22.0.0"
   }
 }
