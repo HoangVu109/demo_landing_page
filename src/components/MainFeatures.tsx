@@ -40,7 +40,7 @@ export default function MainFeatures() {
             className="flex justify-center"
           >
             <img
-              src="/imgs/img_5.png"
+              src="/imgs/img_5.webp"
               alt="Amazfit Bip Max"
               className="w-auto h-[400px] object-contain drop-shadow-2xl"
               width="1024" height="1024"

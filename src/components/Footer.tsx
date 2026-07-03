@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Logo Column */}
           <div className="col-span-2 md:col-span-1">
             <a href="#" className="flex items-center gap-2 mb-4">
-              <img src="/imgs/brand_logo.png" alt="Amazfit" className="h-10 w-auto brightness-0 invert" width="400" height="150" />
+              <img src="/imgs/brand_logo.webp" alt="Amazfit" className="h-10 w-auto brightness-0 invert" width="400" height="150" />
             </a>
             <p className="text-white/40 text-sm leading-relaxed">
               Tương lai sống thông minh, ngay trên cổ tay bạn.

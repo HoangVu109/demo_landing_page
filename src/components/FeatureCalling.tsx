@@ -62,7 +62,7 @@ export default function FeatureCalling() {
 
               <div className="relative z-10">
                 <img
-                  src="/imgs/img_2.png"
+                  src="/imgs/img_2.webp"
                   alt="Amazfit Bip Max"
                   className="w-56 h-auto object-contain drop-shadow-2xl"
                   width="400" height="500"

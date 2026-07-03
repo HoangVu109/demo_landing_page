@@ -3,9 +3,9 @@ import { MessageSquare } from 'lucide-react';
 
 const messages = [
   { type: 'icon' as const, icon: MessageSquare, label: 'SMS', color: 'bg-green-400' },
-  { type: 'img' as const, img: '/imgs/zalo_icon.png', label: 'Zalo', color: 'bg-blue-400' },
-  { type: 'img' as const, img: '/imgs/mess_icon.png', label: 'Messenger', color: 'bg-blue-500' },
-  { type: 'img' as const, img: '/imgs/line_icon.png', label: 'LINE', color: 'bg-[#22BA4F]' },
+  { type: 'img' as const, img: '/imgs/zalo_icon.webp', label: 'Zalo', color: 'bg-blue-400' },
+  { type: 'img' as const, img: '/imgs/mess_icon.webp', label: 'Messenger', color: 'bg-blue-500' },
+  { type: 'img' as const, img: '/imgs/line_icon.webp', label: 'LINE', color: 'bg-[#22BA4F]' },
 ];
 
 export default function FeatureMessages() {
@@ -46,7 +46,7 @@ export default function FeatureMessages() {
 
               <div className="relative z-10">
                 <img
-                  src="/imgs/img_2.png"
+                  src="/imgs/img_2.webp"
                   alt="Amazfit Bip Max"
                   className="w-56 h-auto object-contain drop-shadow-2xl"
                   width="400" height="500"

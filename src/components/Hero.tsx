@@ -74,7 +74,7 @@ export default function Hero() {
             className="relative z-10"
           >
             <img
-              src="/imgs/img_1.png"
+              src="/imgs/img_1.webp"
               alt="Amazfit Bip Max"
               className="w-auto h-[500px] object-contain drop-shadow-2xl"
               width="800" height="800"
