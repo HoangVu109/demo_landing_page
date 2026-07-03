@@ -21,7 +21,7 @@ function SectionFallback() {
 
 function App() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden bg-background dark:bg-gray-900 min-h-screen transition-colors duration-300">
       <Navbar />
       <Hero />
       <Suspense fallback={<SectionFallback />}>

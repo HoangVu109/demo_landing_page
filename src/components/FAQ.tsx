@@ -29,7 +29,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section className="py-section-tablet md:py-section bg-gray-50">
+    <section className="py-section-tablet md:py-section bg-gray-50 dark:bg-gray-800">
       <div className="max-w-content mx-auto section-padding">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -50,13 +50,13 @@ export default function FAQ() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: i * 0.1 }}
-              className="bg-white rounded-2xl overflow-hidden shadow-sm"
+              className="bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-sm dark:shadow-gray-950/30"
             >
               <button
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
                 className="w-full flex items-center justify-between p-6 text-left"
               >
-                <span className="font-heading font-semibold text-secondary pr-4">
+                <span className="font-heading font-semibold text-secondary dark:text-white pr-4">
                   {faq.question}
                 </span>
                 <motion.span
@@ -76,7 +76,7 @@ export default function FAQ() {
                     transition={{ duration: 0.3 }}
                     className="overflow-hidden"
                   >
-                    <p className="px-6 pb-6 text-text/60 leading-relaxed">{faq.answer}</p>
+                    <p className="px-6 pb-6 text-text/60 dark:text-gray-400 leading-relaxed">{faq.answer}</p>
                   </motion.div>
                 )}
               </AnimatePresence>

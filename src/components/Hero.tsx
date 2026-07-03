@@ -22,11 +22,11 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="flex flex-col justify-center"
         >
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold text-secondary leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold text-secondary dark:text-white leading-tight">
             Đón đầu Tương lai{' '}
             <span className="text-primary">Sống Thông minh</span>
           </h1>
-          <p className="mt-6 text-lg text-text/70 leading-relaxed max-w-lg">
+          <p className="mt-6 text-lg text-text/70 dark:text-gray-400 leading-relaxed max-w-lg">
             Amazfit Bip Max là đồng hồ thông minh cao cấp hỗ trợ theo dõi sức khỏe,
             giao tiếp và năng suất làm việc — tất cả trong một thiết bị tinh tế
             được thiết kế cho phong cách sống hiện đại của bạn.
@@ -37,7 +37,7 @@ export default function Hero() {
             <input
               type="email"
               placeholder="Nhập email của bạn"
-              className="flex-1 px-5 py-3 rounded-full border border-border focus:outline-none focus:border-primary transition-colors"
+              className="flex-1 px-5 py-3 rounded-full border border-border dark:border-gray-700 bg-white dark:bg-gray-800 dark:text-white focus:outline-none focus:border-primary transition-colors"
             />
             <button className="btn-primary whitespace-nowrap">Bắt đầu</button>
           </div>
@@ -49,7 +49,7 @@ export default function Hero() {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                   <Icon size={22} className="text-primary" />
                 </div>
-                <span className="text-xs font-medium text-text/60 text-center">{label}</span>
+                <span className="text-xs font-medium text-text/60 dark:text-gray-400 text-center">{label}</span>
               </div>
             ))}
           </div>
@@ -63,7 +63,7 @@ export default function Hero() {
           className="relative flex items-center justify-center"
         >
           {/* Watermark */}
-          <span className="absolute text-[12rem] font-heading font-extrabold text-secondary/5 select-none pointer-events-none">
+          <span className="absolute text-[12rem] font-heading font-extrabold text-secondary/5 dark:text-white/5 select-none pointer-events-none">
             BIP MAX
           </span>
 

@@ -24,7 +24,7 @@ const reviews = [
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="py-section-tablet md:py-section bg-gray-50">
+    <section id="reviews" className="py-section-tablet md:py-section bg-gray-50 dark:bg-gray-800">
       <div className="max-w-content mx-auto section-padding">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -45,7 +45,7 @@ export default function Reviews() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow"
+              className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-sm dark:shadow-gray-950/30 hover:shadow-md dark:hover:shadow-gray-950/50 transition-shadow"
             >
               {/* Avatar & Name */}
               <div className="flex items-center gap-4 mb-4">
@@ -53,7 +53,7 @@ export default function Reviews() {
                   {review.avatar}
                 </div>
                 <div>
-                  <h4 className="font-heading font-semibold text-secondary">{review.name}</h4>
+                  <h4 className="font-heading font-semibold text-secondary dark:text-white">{review.name}</h4>
                   <div className="flex gap-0.5 mt-1">
                     {[...Array(review.rating)].map((_, j) => (
                       <Star key={j} size={14} className="fill-yellow-400 text-yellow-400" />
@@ -62,7 +62,7 @@ export default function Reviews() {
                 </div>
               </div>
 
-              <p className="text-text/60 leading-relaxed">{review.text}</p>
+              <p className="text-text/60 dark:text-gray-400 leading-relaxed">{review.text}</p>
             </motion.div>
           ))}
         </div>

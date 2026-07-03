@@ -10,7 +10,7 @@ const messages = [
 
 export default function FeatureMessages() {
   return (
-    <section className="py-section-tablet md:py-section bg-gray-50">
+    <section className="py-section-tablet md:py-section bg-gray-50 dark:bg-gray-800">
       <div className="max-w-content mx-auto section-padding">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Watch (left side this time) */}
@@ -65,7 +65,7 @@ export default function FeatureMessages() {
           >
             <span className="section-title">TIỆN LỢI</span>
             <h2 className="section-heading">Tất cả Tin nhắn trong Một nơi</h2>
-            <p className="mt-4 text-text/60 leading-relaxed max-w-md">
+            <p className="mt-4 text-text/60 dark:text-gray-400 leading-relaxed max-w-md">
               Luôn cập nhật mọi cuộc trò chuyện. Nhận thông báo từ
               SMS, Messenger, Zalo, LINE và Facebook Messenger ngay trên cổ tay.
             </p>

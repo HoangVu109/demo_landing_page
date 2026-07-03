@@ -46,14 +46,14 @@ export default function Pricing() {
               transition={{ duration: 0.5, delay: i * 0.15 }}
               className={`relative rounded-2xl p-8 ${
                 plan.highlighted
-                  ? 'bg-secondary text-white border-2 border-primary shadow-xl shadow-primary/20 scale-105'
-                  : 'bg-white border-2 border-border shadow-sm'
+                  ? 'bg-secondary dark:bg-gray-800 text-white border-2 border-primary shadow-xl shadow-primary/20 scale-105'
+                  : 'bg-white dark:bg-gray-900 border-2 border-border dark:border-gray-700 shadow-sm'
               }`}
             >
 
               <h3
                 className={`font-heading font-bold text-2xl mb-2 ${
-                  plan.highlighted ? 'text-white' : 'text-secondary'
+                  plan.highlighted ? 'text-white' : 'text-secondary dark:text-white'
                 }`}
               >
                 {plan.name}
@@ -62,7 +62,7 @@ export default function Pricing() {
               <div className="mb-6">
                 <span
                   className={`text-4xl font-heading font-extrabold ${
-                    plan.highlighted ? 'text-primary' : 'text-secondary'
+                    plan.highlighted ? 'text-primary' : 'text-secondary dark:text-white'
                   }`}
                 >
                   {plan.price}
@@ -82,7 +82,7 @@ export default function Pricing() {
                         className={plan.highlighted ? 'text-primary' : 'text-primary'}
                       />
                     </div>
-                    <span className={plan.highlighted ? 'text-white/80' : 'text-text/60'}>
+                    <span className={plan.highlighted ? 'text-white/80' : 'text-text/60 dark:text-gray-400'}>
                       {f}
                     </span>
                   </li>

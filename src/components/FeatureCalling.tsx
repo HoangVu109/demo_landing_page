@@ -22,7 +22,7 @@ export default function FeatureCalling() {
           >
             <span className="section-title">NHANH CHÓNG</span>
             <h2 className="section-heading">Kết nối qua Cuộc gọi</h2>
-            <p className="mt-4 text-text/60 leading-relaxed max-w-md">
+            <p className="mt-4 text-text/60 dark:text-gray-400 leading-relaxed max-w-md">
               Thực hiện và nhận cuộc gọi trực tiếp từ cổ tay của bạn với âm thanh
               trong trẻo và công nghệ chống ồn tiên tiến.
             </p>
@@ -33,7 +33,7 @@ export default function FeatureCalling() {
                   <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                     <Icon size={18} className="text-primary" />
                   </div>
-                  <span className="font-medium text-sm text-text/70">{label}</span>
+                  <span className="font-medium text-sm text-text/70 dark:text-gray-300">{label}</span>
                 </div>
               ))}
             </div>

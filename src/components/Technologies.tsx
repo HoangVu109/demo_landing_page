@@ -72,7 +72,7 @@ export default function Technologies() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section id="technologies" className="py-section-tablet md:py-section bg-secondary">
+    <section id="technologies" className="py-section-tablet md:py-section bg-secondary dark:bg-gray-950">
       <div className="max-w-content mx-auto section-padding">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -15,7 +15,7 @@
   }
 
   body {
-    @apply antialiased;
+    @apply antialiased bg-background dark:bg-gray-900 text-text dark:text-gray-200;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -44,7 +44,7 @@
   }
 
   .section-heading {
-    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mt-2;
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-secondary dark:text-white mt-2;
   }
 }
 

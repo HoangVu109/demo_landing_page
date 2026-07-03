@@ -57,13 +57,13 @@ export default function MainFeatures() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.06 }}
                 whileHover={{ borderColor: '#2CC7D6' }}
-                className="border-2 border-border rounded-2xl p-5 hover:shadow-lg transition-all cursor-pointer"
+                className="border-2 border-border dark:border-gray-700 rounded-2xl p-5 hover:shadow-lg dark:hover:shadow-gray-950/30 transition-all cursor-pointer bg-white dark:bg-gray-900"
               >
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
                   <Icon size={20} className="text-primary" />
                 </div>
-                <h3 className="font-heading font-semibold text-secondary mb-1">{title}</h3>
-                <p className="text-text/50 text-sm">{desc}</p>
+                <h3 className="font-heading font-semibold text-secondary dark:text-white mb-1">{title}</h3>
+                <p className="text-text/50 dark:text-gray-400 text-sm">{desc}</p>
               </motion.div>
             ))}
           </div>

@@ -41,7 +41,7 @@ export default function ChatWidget() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 20 }}
             transition={{ duration: 0.25 }}
-            className="mb-4 w-[350px] max-w-[calc(100vw-48px)] bg-white rounded-2xl shadow-2xl border border-border overflow-hidden"
+            className="mb-4 w-[350px] max-w-[calc(100vw-48px)] bg-white dark:bg-gray-900 rounded-2xl shadow-2xl dark:shadow-gray-950/50 border border-border dark:border-gray-700 overflow-hidden"
           >
             {/* Header */}
             <div className="bg-primary px-5 py-4 flex items-center justify-between">
@@ -63,7 +63,7 @@ export default function ChatWidget() {
             </div>
 
             {/* Messages */}
-            <div className="h-80 overflow-y-auto p-4 space-y-3 bg-gray-50">
+            <div className="h-80 overflow-y-auto p-4 space-y-3 bg-gray-50 dark:bg-gray-800">
               {messages.map((msg, i) => (
                 <div
                   key={i}
@@ -73,7 +73,7 @@ export default function ChatWidget() {
                     className={`max-w-[85%] px-4 py-2.5 rounded-2xl text-sm leading-relaxed ${
                       msg.role === 'user'
                         ? 'bg-primary text-white rounded-br-md'
-                        : 'bg-white text-text/80 border border-border rounded-bl-md shadow-sm'
+                        : 'bg-white dark:bg-gray-700 text-text/80 dark:text-gray-200 border border-border dark:border-gray-600 rounded-bl-md shadow-sm'
                     }`}
                   >
                     {msg.text}
@@ -84,14 +84,14 @@ export default function ChatWidget() {
             </div>
 
             {/* Input */}
-            <div className="p-3 border-t border-border bg-white flex items-center gap-2">
+            <div className="p-3 border-t border-border dark:border-gray-700 bg-white dark:bg-gray-900 flex items-center gap-2">
               <input
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={handleKeyDown}
                 placeholder="Nhập tin nhắn..."
-                className="flex-1 px-4 py-2 text-sm rounded-full border border-border focus:outline-none focus:border-primary transition-colors"
+                className="flex-1 px-4 py-2 text-sm rounded-full border border-border dark:border-gray-600 bg-white dark:bg-gray-800 dark:text-white focus:outline-none focus:border-primary transition-colors"
               />
               <button
                 onClick={handleSend}

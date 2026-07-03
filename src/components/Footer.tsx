@@ -9,7 +9,7 @@ const footerLinks = {
 
 export default function Footer() {
   return (
-    <footer className="bg-secondary pt-section-tablet md:pt-section pb-8">
+    <footer className="bg-secondary dark:bg-gray-950 pt-section-tablet md:pt-section pb-8">
       <div className="max-w-content mx-auto section-padding">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
           {/* Logo Column */}

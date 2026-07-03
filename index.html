@@ -11,7 +11,7 @@
       /* Critical above-the-fold styles */
       *,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}
       html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;tab-size:4;font-family:Inter,sans-serif;line-height:1.5}
-      body{margin:0;line-height:inherit;background-color:#fff;color:#1a1a1a;font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+      body{margin:0;line-height:inherit;font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
       h1,h2,h3,h4,h5,h6{font-family:Google Sans Flex,sans-serif;font-size:inherit;font-weight:inherit}
       img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}
       img,video{max-width:100%;height:auto}
@@ -21,8 +21,12 @@
       /* Inline font-face for Google Sans Flex */
       @font-face{font-family:'Google Sans Flex';src:url('/fonts/Google_Sans_Flex/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.woff2') format('woff2');font-weight:1 1000;font-display:swap}
     </style>
+    <!-- Prevent FOUC: apply dark mode class before React loads -->
+    <script>
+      (function(){var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme:dark)').matches)){document.documentElement.classList.add('dark')}})();
+    </script>
   </head>
-  <body class="font-body text-text bg-background">
+  <body class="font-body text-text bg-background dark:bg-gray-900 dark:text-gray-200">
     <main id="root"></main>
     <script type="module" src="/src/main.tsx"></script>
   </body>
