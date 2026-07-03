@@ -6,6 +6,21 @@
     <link rel="icon" type="image/png" href="/imgs/icon.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazfit Bip Max - Đón đầu Tương lai Sống Thông minh</title>
+    <!-- Inline Critical CSS - prevents FOUC when main CSS loads asynchronously -->
+    <style>
+      /* Critical above-the-fold styles */
+      *,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}
+      html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;tab-size:4;font-family:Inter,sans-serif;line-height:1.5}
+      body{margin:0;line-height:inherit;background-color:#fff;color:#1a1a1a;font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+      h1,h2,h3,h4,h5,h6{font-family:Google Sans Flex,sans-serif;font-size:inherit;font-weight:inherit}
+      img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}
+      img,video{max-width:100%;height:auto}
+      button,input,select,textarea{font:inherit;color:inherit}
+      /* Prevent layout shift */
+      #root{min-height:100vh}
+      /* Inline font-face for Google Sans Flex */
+      @font-face{font-family:'Google Sans Flex';src:url('/fonts/Google_Sans_Flex/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.woff2') format('woff2');font-weight:1 1000;font-display:swap}
+    </style>
   </head>
   <body class="font-body text-text bg-background">
     <main id="root"></main>
